@@ -1,5 +1,4 @@
 
 # novomed-plastika
 
-Site templates
-html/css
+Site templates (html/css)
