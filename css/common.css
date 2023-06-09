@@ -1,0 +1,55 @@
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    color: rgb(var(--blue));
+    background-color: rgb(var(--white));
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1, h2, input {
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    max-width: var(--maxwidth);
+}
+
+
+
+.bg-white {
+    background-color: rgb(var(--white));
+}
+.col-white {
+    color: rgb(var(--white));
+}
+.bg-blue {
+    background-color: rgb(var(--blue));
+}
+.col-blue {
+    color: rgb(var(--blue));
+}
+.bg-red {
+    background-color: rgb(var(--red));
+}
+.col-red {
+    color: rgb(var(--red));
+}
+.bg-grey {
+    background-color: rgb(var(--grey));
+}
+.col-grey {
+    color: rgb(var(--grey));
+}

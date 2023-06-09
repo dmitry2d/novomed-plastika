@@ -9,8 +9,8 @@
     --red: 191,16,31;
     --grey: 54,54,54;
     
-    --fontname: 'Montserrat';
-    --fontsize: 15px;
-    --fontweight: 500;
+    --font-family: 'Montserrat', sans-serif;
+    --font-size: 15px;
+    --font-weight: 500;
 
 }
