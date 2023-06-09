@@ -1,0 +1,16 @@
+
+
+:root {
+    
+    --maxwidth: 1200px;
+
+    --white: 255,255,255;
+    --blue: 44,71,139;
+    --red: 191,16,31;
+    --grey: 54,54,54;
+    
+    --fontname: 'Montserrat';
+    --fontsize: 15px;
+    --fontweight: 500;
+
+}
