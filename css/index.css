@@ -3,3 +3,5 @@
 @import 'variables.css';
 @import 'common.css';
 @import 'top.css';
+
+@import 'responsive/index.css';

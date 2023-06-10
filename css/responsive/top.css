@@ -1,0 +1,49 @@
+
+
+@media screen and (max-width: 1050px) {
+    .top__wrapper {
+        padding: 70rem 0 30rem;
+    }
+    .top__grid {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top__logo {
+        margin: 0 0 25rem 0;
+    }
+    .top__logo img {
+        width: 300rem;
+        height: auto;
+    }
+    .top__hamburger {
+        margin: 0 0 10rem 0;
+    }
+    .top__hamburger img {
+        width: 44rem;
+        cursor: pointer;
+    }
+    .top__phone {
+        margin: 0;
+    }
+    .top__phone a {
+        padding: 10rem 30rem;
+        font-size: 27rem;
+    }
+    .top__social {
+        order: 10;
+    }
+    .top__social a {
+        margin: 0 0 0 10rem;
+    }
+    .top__social img {
+        width: 40rem;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+}
