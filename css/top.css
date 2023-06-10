@@ -1,0 +1,35 @@
+
+
+.top__wrapper {
+    padding: 12px 0;
+}
+.top__grid {
+    align-items: center;
+}
+.top__menu {
+    flex-grow: 1;
+}
+.top__menu__items a {
+    font-size: 18px;
+    color: inherit;
+    margin-right: 10px;
+}
+.top__logo {
+    padding-right: 22px;
+}
+.top__logo img {
+    height: 45px;
+}
+.top__social__items a {
+    margin-right: 10px;
+}
+.top__phone {
+    margin-left: 20px;
+}
+.top__phone a {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 15px;
+    white-space: nowrap;
+    border-radius: 10px;
+}
