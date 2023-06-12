@@ -8,9 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <!-- /Google fonts -->
+    
     <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- /CSS -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- /jQuery -->
+    
+    <!-- Слайдер -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- /Слайдер -->
         
     <title>Центр пластической хирургии</title>
 </head>
@@ -109,42 +120,44 @@
     <div class="container">
         <div class="services__title">Выберите отдел тела</div>
         <div class="services__grid flex">
-            <div class="services__items">
-                <div class="services__items__list">
+            <div class="services__items__wrapper">
+                <div class="services__items__left"><img src="./img/arrow_thin.svg" alt=""></div>
+                <div class="services__items__right"><img src="./img/arrow_thin.svg" alt=""></div>
+                <div class="services__items">
                     <div class="services__item">
                         <div class="services__item__picture">
-                            <img src="/img/photo1.png" alt="">
+                            <img src="./img/photo1.png" alt="">
                         </div>
                         <div class="services__item__title">Блефаропластика</div>
-                        <div class="services__item__text">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
+                        <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
-                            <a href="" class="services__item__appoint">Записаться</a>
-                            <a href="" class="services__item__details">Подробнее</a>
+                            <a href="" class="services__item__appoint bg-blue col-white">Записаться</a>
+                            <a href="" class="services__item__details col-blue">Подробнее</a>
                         </div>
                     </div>
                     <div class="services__item">
                         <div class="services__item__picture">
-                            <img src="/img/photo1.png" alt="">
+                            <img src="./img/photo1.png" alt="">
                         </div>
                         <div class="services__item__title">Блефаропластика</div>
-                        <div class="services__item__text">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
+                        <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
-                            <a href="" class="services__item__appoint">Записаться</a>
-                            <a href="" class="services__item__details">Подробнее</a>
+                            <a href="" class="services__item__appoint bg-blue col-white">Записаться</a>
+                            <a href="" class="services__item__details col-blue">Подробнее</a>
                         </div>
                     </div>
                     <div class="services__item">
                         <div class="services__item__picture">
-                            <img src="/img/photo1.png" alt="">
+                            <img src="./img/photo1.png" alt="">
                         </div>
                         <div class="services__item__title">Блефаропластика</div>
-                        <div class="services__item__text">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
+                        <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
-                            <a href="" class="services__item__appoint">Записаться</a>
-                            <a href="" class="services__item__details">Подробнее</a>
+                            <a href="" class="services__item__appoint bg-blue col-white">Записаться</a>
+                            <a href="" class="services__item__details col-blue">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -154,48 +167,64 @@
                     <img src="./img/woman__shape__01.png" alt="">
                 </div>
                 <div class="services__tags__items">
-                    <div class="services__tags__item n1">Лицо</div>
-                    <div class="services__tags__item n2">Грудь</div>
-                    <div class="services__tags__item n3">Живот</div>
-                    <div class="services__tags__item n4">Интимная пластика</div>
-                    <div class="services__tags__item n5">Бедра</div>
-                    <div class="services__tags__item n6">Пластика после онкологии</div>
+                    <div class="services__tags__item n1"><a href="" class="bg-blue col-white">Лицо</a></div>
+                    <div class="services__tags__item n2"><a href="" class="bg-blue col-white">Грудь</a></div>
+                    <div class="services__tags__item n3"><a href="" class="bg-blue col-white">Живот</a></div>
+                    <div class="services__tags__item n4"><a href="" class="bg-blue col-white">Интимная пластика</a></div>
+                    <div class="services__tags__item n5"><a href="" class="bg-blue col-white">Бедра</a></div>
+                    <div class="services__tags__item n6"><a href="" class="bg-blue col-white">Пластика после онкологии</a></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+  $(document).ready(function(){
+    // Слайдер на баннере
+    $('.services__items').slick({
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      prevArrow: $('.services__items__left'),
+      nextArrow: $('.services__items__right')
+    });
+  });
+</script>
 <!-- / Services -->
 
 <!-- Request -->
-<div class="request">
+<div class="request bg-lightgrey">
     <div class="container">
         <div class="request__grid flex">
             <div class="request__form">
-                <div class="request__form__title"></div>
-                <form action="">
-                    <input type="text">
-                    <input type="text">
-                    <input type="submit" class="bg-white">
+                <div class="request__form__title col-grey">Оставьте заявку и мы с вами свяжемся </div>
+                <form action="" class="bg-blue">
+                    <input type="text" name="phone" placeholder="Телефон*">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="submit" class="bg-white col-blue">
                 </form>
-                <div class="request__form__description"></div>
+                <div class="request__form__description">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
             </div>
             <div class="request__questions">
-                <div class="request__questions__title"></div>
+                <div class="request__questions__title">Остались вопросы - напишите нам</div>
                 <div class="request__questions__items flex">
                     <div class="request__questions__item">
                         <a href="">
-                            <img src="" alt="">
+                            <img src="./img/social__wa__inverse.svg" alt="">
                         </a>
                     </div>
                     <div class="request__questions__item">
                         <a href="">
-                            <img src="" alt="">
+                            <img src="./img/social__vk__inverse.svg" alt="">
                         </a>
                     </div>
                     <div class="request__questions__item">
                         <a href="">
-                            <img src="" alt="">
+                            <img src="./img/social__tg__inverse.svg" alt="">
                         </a>
                     </div>
                 </div>
