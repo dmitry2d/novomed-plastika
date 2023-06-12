@@ -3,5 +3,8 @@
 @import 'variables.css';
 @import 'common.css';
 @import 'top.css';
+@import 'banner.css';
+@import 'about-service.css';
+@import 'services.css';
 
 @import 'responsive/index.css';

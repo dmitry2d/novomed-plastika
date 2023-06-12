@@ -64,3 +64,10 @@ a {
 .col-grey {
     color: rgb(var(--grey));
 }
+
+.bg-lightgrey {
+    background-color: rgb(var(--lightgrey));
+}
+.col-lightgrey {
+    color: rgb(var(--lightgrey));
+}

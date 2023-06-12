@@ -1,0 +1,66 @@
+
+.about-service {
+    padding-bottom: 1px;
+}
+.about-service__wrapper {
+    position: relative;
+}
+.about-service__shape1 {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+}
+.about-service__shape1 img {
+    height: 700px;
+}
+.about-service__shape2 {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.about-service__logo {
+    position: absolute;
+    top: 290px;
+    left: 700px;
+}
+.about-service__logo img {
+    width: 190px;
+    opacity: 0.25;
+}
+
+
+.about-service__items {
+    padding: 30px 0 0 250px;
+}
+.about-service__item {
+    position: relative;
+    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.about-service__item:first-child {
+    height: 65px;
+    padding-bottom: 10px;
+}
+.about-service__item:before {
+    position: absolute;
+    content: '';
+    left: -200px;
+    width: 200px;
+    top: 10px;
+    height: 1px;
+    border-top: 2px dotted rgb(var(--red));
+}
+.about-service__description {
+    margin: 20px 140px 50px 220px;
+    border: 2px dotted rgb(var(--red)); 
+    border-radius: 30px 0 0 30px;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border-right: none;
+}

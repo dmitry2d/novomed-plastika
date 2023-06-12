@@ -1,0 +1,57 @@
+
+.banner__wrapper {
+    position: relative;
+    padding: 180px 0 40px;
+}
+.banner__wrapper .container {
+    position: relative;
+    z-index: 1;
+}
+.banner__title {
+    margin-bottom: 100px;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    max-width: 60%;
+}
+.banner__background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+.banner__background img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    object-fit: contain;
+    object-position: right top;
+}
+
+.banner__form__title {
+    font-size: 24px;
+}
+.banner__form form {
+    display: flex;
+    margin-top: 50px;
+}
+.banner__form form input {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.banner__form form input[type="submit"] {
+    border: 2px solid white;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 15px 30px;
+}
+.banner__form__warning {
+    font-size: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+.banner__description {
+    margin-top: 120px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
