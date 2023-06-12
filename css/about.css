@@ -1,0 +1,38 @@
+
+.about__wrapper__left {
+    min-width: 340rem;
+}
+.about__wrapper__right {
+    padding-left: 30rem;
+    flex-grow: 1;
+}
+.about__image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+.about__image img {
+    border-radius: 30rem;
+    position: absolute;
+    display: block;
+    right: 4rem;
+    top: 4rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 5rem solid white;
+    border-top: 5rem solid white;
+    box-shadow: 5rem -5rem 0rem 0rem rgb(var(--blue));
+}
+
+.about__title {
+    font-size: 36rem;
+    font-weight: 600;
+}
+
+.about__text {
+    font-size: 24rem;
+    font-weight: 400;
+    margin-top: 20rem;
+}

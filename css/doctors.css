@@ -1,0 +1,74 @@
+
+.doctors__title {
+    font-size: 48rem;
+    font-weight: 600;
+}
+.doctors__description {
+    font-size: 24rem;
+    font-weight: 600;
+}
+
+.doctors__items__wrapper {
+    position: relative;
+}
+.doctors__items {
+    width: 100%;
+    margin: 20rem -10rem;
+    padding: 0 40rem;
+}
+.doctors__item {
+    position: relative;
+    background: white;
+    border-radius: 30rem;
+    margin: 10rem;
+    text-align: center;
+    padding: 20rem 20rem 40rem;
+}
+.doctors__item__picture {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+}
+.doctors__item__name {
+    font-size: 24rem;
+    font-weight: 600;
+    margin: 30rem 0;
+}
+.doctors__item__job-title {
+    margin: 30rem 0;
+    font-size: 16rem;
+    font-weight: 400;
+}
+.doctors__item__appoint {
+    border-radius: 10rem;
+    padding: 10rem;
+    font-size: 16rem;
+    font-weight: 500;
+}
+.doctors__item__picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20rem;
+}
+.doctors__items__left {
+    position: absolute;
+    left: -5rem;
+    top: 40%;
+    z-index: 1;
+    padding: 10rem;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.doctors__items__right {
+    position: absolute;
+    right: -5rem;
+    top: 40%;
+    z-index: 1;
+    padding: 10rem;
+    cursor: pointer;
+}

@@ -1,15 +1,15 @@
 
 .banner__wrapper {
     position: relative;
-    padding: 180px 0 40px;
+    padding: 180rem 0 40rem;
 }
 .banner__wrapper .container {
     position: relative;
     z-index: 1;
 }
 .banner__title {
-    margin-bottom: 100px;
-    font-size: 46px;
+    margin-bottom: 100rem;
+    font-size: 46rem;
     font-weight: 600;
     text-transform: uppercase;
     max-width: 60%;
@@ -28,30 +28,30 @@
 }
 
 .banner__form__title {
-    font-size: 24px;
+    font-size: 24rem;
 }
 .banner__form form {
     display: flex;
-    margin-top: 50px;
+    margin-top: 50rem;
 }
 .banner__form form input {
-    font-size: 18px;
-    border-radius: 10px;
-    padding: 15px 20px;
+    font-size: 18rem;
+    border-radius: 10rem;
+    padding: 15rem 20rem;
 }
 .banner__form form input[type="submit"] {
-    border: 2px solid white;
+    border: 2rem solid white;
     cursor: pointer;
-    margin-left: 20px;
-    padding: 15px 30px;
+    margin-left: 20rem;
+    padding: 15rem 30rem;
 }
 .banner__form__warning {
-    font-size: 10px;
-    margin: 10px 0;
-    width: 300px;
+    font-size: 10rem;
+    margin: 10rem 0;
+    width: 300rem;
 }
 .banner__description {
-    margin-top: 120px;
-    font-size: 23px;
+    margin-top: 120rem;
+    font-size: 23rem;
     text-transform: uppercase;
 }

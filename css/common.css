@@ -6,11 +6,18 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color: rgb(var(--blue));
-    background-color: rgb(var(--white));
-    font-family: var(--font-family);
-    font-weight: var(--font-weight);
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
     font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    font-family: var(--font-family);
+    background-color: rgb(var(--white));
+    color: rgb(var(--blue));
 }
 
 body * {
@@ -32,7 +39,7 @@ a {
 .container {
     max-width: var(--maxwidth);
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 40rem 20rem;
 }
 
 .flex {

@@ -235,13 +235,17 @@
 <!-- / Request -->
 
 <!-- About -->
-<div class="about">
+<div class="about bg-lightgrey">
     <div class="container">
         <div class="about__wrapper flex">
-            <div class="about__wrapper__left"></div>
+            <div class="about__wrapper__left">
+                <div class="about__image">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
             <div class="about__wrapper__right">
-                <div class="about__title"></div>
-                <div class="about__text"></div>
+                <div class="about__title">Пластическая хирургия в Новороссийске</div>
+                <div class="about__text col-grey">Вот вам яркий пример современных тенденций — укрепление и развитие внутренней структуры прекрасно подходит для реализации кластеризации усилий. В целом, конечно, глубокий уровень погружения, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для распределения внутренних резервов и ресурсов. С учётом сложившейся международной обстановки, постоянный количественный рост и сфера нашей активности напрямую зависит от экономической целесообразности принимаемых решений. </div>
             </div>
         </div>
     </div>
@@ -249,73 +253,193 @@
 <!-- / About -->
 
 <!-- Doctors -->
-<div class="doctors">
-    <div class="container">
-        <div class="doctors__title"></div>
-        <div class="doctors__description"></div>
-        <div class="doctors__items">
-            <div class="doctors__item">
-                <div class="doctors__item__picture">
-                    <img src="" alt="">
+<div class="doctors bg-lightgrey">
+    <div class="doctors__wrapper container">
+        <div class="doctors__title">Наши специалисты</div>
+        <div class="doctors__description">Каждый из них имеет как минимум 5-летний опыт...</div>
+        <div class="doctors__items__wrapper">
+            <div class="doctors__items__left"><img src="./img/arrow_thin.svg" alt=""></div>
+            <div class="doctors__items__right"><img src="./img/arrow_thin.svg" alt=""></div>
+            <div class="doctors__items">
+                <div class="doctors__item">
+                    <div class="doctors__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="doctors__item__name">Абрамов Игорь Владимирович</div>
+                    <div class="doctors__item__job-title col-grey">врач-пластический хирур</div>
+                    <a href="" class="doctors__item__appoint bg-blue col-white">Записаться</a>
                 </div>
-                <div class="doctors__item__name"></div>
-                <div class="doctors__item__job-title"></div>
-                <a href="" class="doctors__item__appoint bg-blue col-white"></a>
+                <div class="doctors__item">
+                    <div class="doctors__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="doctors__item__name">Абрамов Игорь Владимирович</div>
+                    <div class="doctors__item__job-title col-grey">врач-пластический хирур</div>
+                    <a href="" class="doctors__item__appoint bg-blue col-white">Записаться</a>
+                </div>
+                <div class="doctors__item">
+                    <div class="doctors__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="doctors__item__name">Абрамов Игорь Владимирович</div>
+                    <div class="doctors__item__job-title col-grey">врач-пластический хирур</div>
+                    <a href="" class="doctors__item__appoint bg-blue col-white">Записаться</a>
+                </div>
+                <div class="doctors__item">
+                    <div class="doctors__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="doctors__item__name">Абрамов Игорь Владимирович</div>
+                    <div class="doctors__item__job-title col-grey">врач-пластический хирур</div>
+                    <a href="" class="doctors__item__appoint bg-blue col-white">Записаться</a>
+                </div>
+                <div class="doctors__item">
+                    <div class="doctors__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="doctors__item__name">Абрамов Игорь Владимирович</div>
+                    <div class="doctors__item__job-title col-grey">врач-пластический хирур</div>
+                    <a href="" class="doctors__item__appoint bg-blue col-white">Записаться</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+      // Слайдер на баннере
+      $('.doctors__items').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: $('.doctors__items__left'),
+        nextArrow: $('.doctors__items__right')
+      });
+    });
+  </script>
 <!-- / Doctors -->
 
 <!-- Gallery -->
-<div class="gallery">
-    <div class="container">
-        <div class="gallery__prev"></div>
-        <div class="gallery__next"></div>
+<div class="gallery bg-lightgrey">
+    <div class="gallery__wrapper container">
+        <div class="gallery__items__left"><img src="./img/arrow.svg" alt=""></div>
+        <div class="gallery__items__right"><img src="./img/arrow.svg" alt=""></div>
         <div class="gallery__items">
             <div class="gallery__item">
-                <img src="" alt="">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__item">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__item">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__item">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__item">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+            </div>
+            <div class="gallery__item">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+      // Слайдер на баннере
+      $('.gallery__items').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: $('.gallery__items__left'),
+        nextArrow: $('.gallery__items__right')
+      });
+    });
+  </script>
 <!-- / Gallery -->
 
 <!-- Clients -->
-<div class="clients">
-    <div class="container">
+<div class="clients bg-lightgrey">
+    <div class="clients__wrapper container">
         <div class="clients__top flex">
             <div class="clients__title">
-                <div class="clients__smalltitle"></div>
-                <div class="clients__bigtitle"></div>
+                <div class="clients__smalltitle">Лучше за нас говорят только отзывы</div>
+                <div class="clients__bigtitle">Наши клиенты готовы рассказать о всех плюсахработы с нами</div>
             </div>
-            <div class="clients_items">
-                <div class="clients__item">
+            <div class="clients__items flex">
+                <div class="clients__item bg-blue">
                     <div class="clients__item__picture">
-                        <img src="" alt="">
+                        <img src="./img/photo1.png" alt="">
                     </div>
-                    <div class="clients__item__name"></div>
-                    <div class="clients__item__job-title"></div>
-                    <div class="clients__item__text"></div>
-                    <div class="clients__item__link"></div>
-                    <div class="clients__item__ya">
-                        <img src="" alt="">
+                    <div class="clients__item__name col-white">Игорь Слободский</div>
+                    <div class="clients__item__job-title col-white">Кровать Настрадамус</div>
+                    <div class="clients__item__text bg-lightgrey col-grey">Отзыв о доме с рыбным текстом по рыбьему языку о рыбной рыбе о рыб и для рым которые ля рыбных рыб
+                        по рыбьему языку о рыбной рыбе о рыб и для рым которые ля рыбных рыб</div>
+                    <div class="clients__item__more flex">
+                        <a href="" class="clients__item__link col-grey">читать полностью на</a>
+                        <div class="clients__item__ya">
+                            <img src="./img/ya__logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__item bg-blue">
+                    <div class="clients__item__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="clients__item__name col-white">Игорь Слободский</div>
+                    <div class="clients__item__job-title col-white">Кровать Настрадамус</div>
+                    <div class="clients__item__text bg-lightgrey col-grey">Отзыв о доме с рыбным текстом по рыбьему языку о рыбной рыбе о рыб и для рым которые ля рыбных рыб
+                        по рыбьему языку о рыбной рыбе о рыб и для рым которые ля рыбных рыб</div>
+                    <div class="clients__item__more flex">
+                        <a href="" class="clients__item__link col-grey">читать полностью на</a>
+                        <div class="clients__item__ya">
+                            <img src="./img/ya__logo.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="clients__bottom flex">
+        <div class="clients__bottom flex bg-blue">
             <div class="clients__count">
-                <div class="clients__count__numbers"></div>
-                <div class="clients__count__text"></div>
+                <div class="clients__count__numbers col-white">7000+</div>
+                <div class="clients__count__text col-white">Людей уже выбрали нас</div>
             </div>
-            <div class="clients__cards">
-                <div class="clients__card">
-                    <div class="clients__card__photo">
-                        <img src="" alt="">
+            <div class="clients__cards flex">
+                <div class="clients__card bg-white">
+                    <div class="clients__card__picture">
+                        <img src="./img/photo1.png" alt="">
                     </div>
-                    <div class="clients__card__name"></div>
-                    <div class="clients__card__text"></div>
+                    <div class="clients__card__name">Мария</div>
+                    <div class="clients__card__text">Купила кровать описание с рыбным текстом который рыбный для рыб и о рыбах по рыбьему рыбу</div>
+                </div>
+                <div class="clients__card bg-white">
+                    <div class="clients__card__picture">
+                        <img src="./img/photo1.png" alt="">
+                    </div>
+                    <div class="clients__card__name">Мария</div>
+                    <div class="clients__card__text">Купила кровать описание с рыбным текстом который рыбный для рыб и о рыбах по рыбьему рыбу</div>
                 </div>
             </div>
         </div>
@@ -324,23 +448,85 @@
 <!-- / Clients -->
 
 <!-- Why Us -->
-<div class="why">
-    <div class="container">
+<div class="why bg-lightgrey">
+    <div class="why__wrapper container">
         <div class="why__top flex">
             <div class="why__logo">
-                <img src="" alt="">
+                <img src="./img/logo.svg" alt="">
             </div>
-            <div class="why__title"></div>
+            <div class="why__title">Почему выбирают нас</div>
         </div>
         <div class="why__bottom">
             <div class="why__items">
-                <div class="why__item">
-                    <div class="why__item__picture">
-                        <img src="" alt="">
+                <div class="why__items__row">
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__qual.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Качество</div>
+                                <div class="why__item__text col-grey">Мы уверены в том, что мы делаем</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="why__item__right">
-                        <div class="why__item__title"></div>
-                        <div class="why__item__text"></div>
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__exp.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Опыт</div>
+                                <div class="why__item__text col-grey">Каждый специалист работает в своей сфере не менее 5 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__supp.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Клиентская поддержка</div>
+                                <div class="why__item__text col-grey">Мы будем на связи и до 
+                                    и после процедуры</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why__items__row">
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__care.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Забота</div>
+                                <div class="why__item__text col-grey">Мы сами напомним о повторном приеме</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__conf.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Конфиденциальность</div>
+                                <div class="why__item__text col-grey">Только при вашем желании кто-то узнает об обращении в нашу клинику</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why__item__cell">
+                        <div class="why__item flex">
+                            <div class="why__item__picture">
+                                <img src="./img/icn__sale.png" alt="">
+                            </div>
+                            <div class="why__item__right">
+                                <div class="why__item__title">Персональные скидки</div>
+                                <div class="why__item__text col-grey">Мы учтем количество выбранных вами услуг, чтобы предложить лучшую цену</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -350,47 +536,91 @@
 <!-- / Why Us -->
 
 <!-- FAQ -->
-<div class="faq">
-    <div class="container">
-        <div class="faq__picture">
-            <img src="" alt="">
-        </div>
-        <div class="faq__items">
-            <div class="faq__item">
-                <div class="faq__item__title"></div>
-                <div class="faq__item__text"></div>
+<div class="faq bg-lightgrey">
+    <div class="faq__wrapper container">
+        <div class="faq__title">Частые вопросы</div>
+        <div class="faq__grid flex">
+            <div class="faq__items">
+                <div class="faq__item faq__item__active">
+                    <div class="faq__item__title">В каком возрасте можно делать пластическую операцию?</div>
+                    <div class="faq__item__text col-grey">Зависит от целей и причин. Если это эстетическая проблема, то делают и с рождения. Для красоты и исправления форм лучше взвешенное решение, поэтому с 18 лет.</div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__item__title">В каком возрасте можно делать пластическую операцию?</div>
+                    <div class="faq__item__text col-grey">Зависит от целей и причин. Если это эстетическая проблема, то делают и с рождения. Для красоты и исправления форм лучше взвешенное решение, поэтому с 18 лет.</div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__item__title">В каком возрасте можно делать пластическую операцию?</div>
+                    <div class="faq__item__text col-grey">Зависит от целей и причин. Если это эстетическая проблема, то делают и с рождения. Для красоты и исправления форм лучше взвешенное решение, поэтому с 18 лет.</div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__item__title">В каком возрасте можно делать пластическую операцию?</div>
+                    <div class="faq__item__text col-grey">Зависит от целей и причин. Если это эстетическая проблема, то делают и с рождения. Для красоты и исправления форм лучше взвешенное решение, поэтому с 18 лет.</div>
+                </div>
+            </div>
+            <div class="faq__picture">
+                <img src="./img/woman__shape__01.png" alt="">
             </div>
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $('.faq__item__title').on('click', e => {
+            $('.faq__item').removeClass('faq__item__active');
+            $(e.target).closest('.faq__item').addClass('faq__item__active');
+        })
+    });
+</script>
 <!-- / FAQ -->
 
 <!-- Contacts -->
-<div class="contacts">
-    <div class="container">
-        <div class="contacts__wrapper flex">
+<div class="contacts bg-lightgrey">
+    <div class="contacts__wrapper container">
+        <div class="contacts-grid flex">
             <div class="contacts__left">
-                <div class="contacts__title"></div>
-                <div class="contacts__item"></div>
-                <div class="contacts__item"></div>
-                <div class="contacts__item"></div>
+                <div class="contacts__title">Контакты</div>
+                <div class="contacts__phone">+7 (8617) 799-799</div>
+                <a href="info@novomed-novoross.ru" class="contacts__email col-blue">info@novomed-novoross.ru</a>
+                <div class="contacts__address">г. Новороссийск, ул. Свердлова 36А</div>
+                <div class="contacts__form">
+                    <div class="contacts__form__title">Остались вопросы?</div>
+                    <form action="" class="flex">
+                        <input type="text" name="phone" placeholder="Телефон*" class="bg-white">
+                        <input type="submit" value="Отправить" class="bg-blue col-white">
+                    </form>
+                    <div class="contacts__form__description">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+                </div>
                 <div class="contacts__social flex">
                     <a href="" class="contacts__social__item">
-                        <img src="" alt="">
+                        <img src="./img/social__wa__inverse.svg" alt="">
                     </a>
                     <a href="" class="contacts__social__item">
-                        <img src="" alt="">
+                        <img src="./img/social__vk__inverse.svg" alt="">
                     </a>
                     <a href="" class="contacts__social__item">
-                        <img src="" alt="">
+                        <img src="./img/social__tg__inverse.svg" alt="">
                     </a>
                 </div>
-                <div class="constcts__logo">
-                    <img src="" alt="">
+                <div class="contacts__logo">
+                    <img src="./img/logo.svg" alt="">
                 </div>
             </div>
             <div class="contacts__right">
-                <div class="contacts__map" id="contacts__map"></div>
+                <div class="contacts__map" id="contacts__map">
+                    <div style="position:relative;overflow:hidden;">
+                        <!-- <a href="https://yandex.ru/maps/970/novorossiysk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Новороссийск</a> -->
+                        <!-- <a href="https://yandex.ru/maps/970/novorossiysk/chain/novomed/198191944528/filter/chain_id/198191944528/?ll=37.787922%2C44.699346&sctx=ZAAAAAgBEAAaKAoSCSAJ%2B3YSRT9AETlCBvLsQk1AEhIJTl5kAn6N3z8RD9Qpj26Ewz8iBgABAgMEBSgAOABA0Z8NSAFiJGNvbGxlY3Rpb25zX2RvX2ZpbHRlcl9ieV9nZW9pZD1mYWxzZWIbY29sbGVjdGlvbnNfaW91X2ZpbHRlcj0wLjAyYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTgwMDAwYjRjb2xsZWN0aW9uc19yYW5raW5nX21vZGVsPWNvbGxfcmVsZXZfYm9iYV9kaXN0aWxsXzE0YiVjb2xsZWN0aW9uc19kb19maWx0ZXJfYnlfd2luZG93PWZhbHNlYhpjb2xsZWN0aW9uc19iZl9zZWFyY2g9dHJ1ZWIcY29sbGVjdGlvbnNfc291cmNlPWdlbmVyYXRlZGIZY29sbGVjdGlvbnNfc291cmNlPWV4cGVydGIhY29sbGVjdGlvbnNfcmV0dXJuX2J5X2dlb2lkPWZhbHNlagJydYIBFWNoYWluX2lkOjE5ODE5MTk0NDUyOJ0BzcxMPaABAKgBAL0BUeBxzsIBBe7krt8D6gEA8gEA%2BAEAggIVY2hhaW5faWQ6MTk4MTkxOTQ0NTI4igIAkgIDOTcwmgIMZGVza3RvcC1tYXBzqgIMMTk4MTkxOTQ0NTI4sAIB&sll=37.787922%2C44.699346&sspn=0.059941%2C0.025276&utm_medium=mapframe&utm_source=maps&z=15.04" style="color:#eee;font-size:12px;position:absolute;top:14px;">Новомед новороссийск — Яндекс Карты</a> -->
+                        <iframe
+                            src="https://yandex.ru/map-widget/v1/?filter=chain_id%3A198191944528&ll=37.787922%2C44.699346&mode=search&sctx=ZAAAAAgBEAAaKAoSCSAJ%2B3YSRT9AETlCBvLsQk1AEhIJTl5kAn6N3z8RD9Qpj26Ewz8iBgABAgMEBSgAOABA0Z8NSAFiJGNvbGxlY3Rpb25zX2RvX2ZpbHRlcl9ieV9nZW9pZD1mYWxzZWIbY29sbGVjdGlvbnNfaW91X2ZpbHRlcj0wLjAyYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTgwMDAwYjRjb2xsZWN0aW9uc19yYW5raW5nX21vZGVsPWNvbGxfcmVsZXZfYm9iYV9kaXN0aWxsXzE0YiVjb2xsZWN0aW9uc19kb19maWx0ZXJfYnlfd2luZG93PWZhbHNlYhpjb2xsZWN0aW9uc19iZl9zZWFyY2g9dHJ1ZWIcY29sbGVjdGlvbnNfc291cmNlPWdlbmVyYXRlZGIZY29sbGVjdGlvbnNfc291cmNlPWV4cGVydGIhY29sbGVjdGlvbnNfcmV0dXJuX2J5X2dlb2lkPWZhbHNlagJydYIBFWNoYWluX2lkOjE5ODE5MTk0NDUyOJ0BzcxMPaABAKgBAL0BUeBxzsIBBe7krt8D6gEA8gEA%2BAEAggIVY2hhaW5faWQ6MTk4MTkxOTQ0NTI4igIAkgIDOTcwmgIMZGVza3RvcC1tYXBzqgIMMTk4MTkxOTQ0NTI4sAIB&sll=37.787922%2C44.699346&sspn=0.059941%2C0.025276&text=%D0%BD%D0%BE%D0%B2%D0%BE%D0%BC%D0%B5%D0%B4%20%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA&z=15.04"
+                            width="100%"
+                            height="400"
+                            frameborder="0"
+                            allowfullscreen="true"
+                            style="position:relative;">
+                        </iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

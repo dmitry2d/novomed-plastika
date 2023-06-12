@@ -1,6 +1,6 @@
+/* 
 
-
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050rem) {
     .top__wrapper {
         padding: 70rem 0 30rem;
     }
@@ -42,8 +42,8 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600rem) {
     .mobile {
         display: none;
     }
-}
+} */

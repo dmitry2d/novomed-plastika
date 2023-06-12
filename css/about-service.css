@@ -1,66 +1,66 @@
 
 .about-service {
-    padding-bottom: 1px;
+    padding-bottom: 1rem;
 }
 .about-service__wrapper {
     position: relative;
 }
 .about-service__shape1 {
     position: absolute;
-    top: 30px;
-    bottom: 30px;
+    top: 30rem;
+    bottom: 30rem;
 }
 .about-service__shape1 img {
-    height: 700px;
+    height: 700rem;
 }
 .about-service__shape2 {
     position: absolute;
-    top: 90px;
+    top: 90rem;
     right: 0;
 }
 .about-service__logo {
     position: absolute;
-    top: 290px;
-    left: 700px;
+    top: 290rem;
+    left: 700rem;
 }
 .about-service__logo img {
-    width: 190px;
+    width: 190rem;
     opacity: 0.25;
 }
 
 
 .about-service__items {
-    padding: 30px 0 0 250px;
+    padding: 30rem 0 0 250rem;
 }
 .about-service__item {
     position: relative;
-    font-size: 24px;
+    font-size: 24rem;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    height: 100px;
-    padding-bottom: 20px;
+    height: 100rem;
+    padding-bottom: 20rem;
     font-weight: 600;
 }
 .about-service__item:first-child {
-    height: 65px;
-    padding-bottom: 10px;
+    height: 65rem;
+    padding-bottom: 10rem;
 }
 .about-service__item:before {
     position: absolute;
     content: '';
-    left: -200px;
-    width: 200px;
-    top: 10px;
-    height: 1px;
-    border-top: 2px dotted rgb(var(--red));
+    left: -200rem;
+    width: 200rem;
+    top: 10rem;
+    height: 1rem;
+    border-top: 2rem dotted rgb(var(--red));
 }
 .about-service__description {
-    margin: 20px 140px 50px 220px;
-    border: 2px dotted rgb(var(--red)); 
-    border-radius: 30px 0 0 30px;
-    padding: 30px;
-    font-size: 24px;
+    margin: 20rem 140rem 50rem 220rem;
+    border: 2rem dotted rgb(var(--red)); 
+    border-radius: 30rem 0 0 30rem;
+    padding: 30rem;
+    font-size: 24rem;
     font-weight: 600;
     border-right: none;
 }

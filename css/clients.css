@@ -1,0 +1,127 @@
+
+.clients__title {
+    min-width: 30%;
+    padding-right: 40rem;
+}
+.clients__items {
+    flex-grow: 1;
+    width: unset;
+    margin: 0 -10rem;
+}
+.clients__smalltitle {
+    font-size: 24rem;
+    font-weight: 500;
+}
+.clients__bigtitle {
+    font-size: 42rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 30rem;
+}
+.clients__item {
+    position: relative;
+    border-radius: 10rem;
+    margin: 10rem;
+    margin-top: 50rem;
+    padding: 70rem 20rem 0 20rem;
+}
+.clients__item__picture {
+    position: absolute;
+    top: -50rem;
+    left: 50%; 
+    transform: translateX(-50%);   
+}
+.clients__item__picture img {
+    width: 100rem;
+    height: 100rem;
+    object-fit: cover;
+    border-radius: 100rem;
+}
+.clients__item__name {
+    font-size: 18rem;
+    font-weight: 500;
+    text-align: center;
+}
+.clients__item__job-title {
+    font-size: 18rem;
+    font-weight: 600;
+    text-align: center;
+}
+.clients__item__text {
+    position: relative;
+    font-size: 14rem;
+    font-weight: 400;
+    text-align: center;
+    border: 2rem solid rgb(var(--blue));
+    border-radius: 10rem;
+    margin-left: -20rem;
+    margin-right: -20rem;
+    margin-top: 30rem;
+    padding: 30rem 20rem 60rem;
+}
+.clients__item__more {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: fit-content;
+}
+.clients__item__ya {
+    font-size: 0;
+    overflow: hidden;
+    border-radius: 30rem 0 10rem 0;
+}
+.clients__item__ya img {
+    width: 50rem;
+}
+.clients__item__link {
+    font-size: 14rem;
+    font-weight: 400;
+    padding-right: 20rem;
+    padding-top: 20rem;
+}
+
+.clients__bottom {
+    padding: 20rem;
+    border-radius: 20rem;
+}
+.clients__count {
+    min-width: 360rem;
+}
+.clients__count__numbers {
+    font-size: 100rem;
+    line-height: 1;
+}
+.clients__count__text {
+    font-size: 24rem;
+}
+
+.clients__cards {
+    margin: 0 -10rem;
+    flex-grow: 1;
+}
+.clients__card {
+    position: relative;
+    margin: 10rem;
+    padding: 10rem;
+    border-radius: 10rem;
+    padding-left: 95rem;
+}
+.clients__card__picture {
+    position: absolute; 
+    left: 10rem;
+    top: 10rem;   
+}
+.clients__card__picture img {
+    width: 75rem;
+    height: 75rem;
+    object-fit: cover;
+    border-radius: 10rem;
+}
+.clients__card__name {
+    font-size: 14rem;
+    font-weight: 600;
+}
+.clients__card__text {
+    font-size: 14rem;
+    font-weight: 400;
+}

@@ -2,7 +2,7 @@
 
 :root {
     
-    --maxwidth: 1200px;
+    --maxwidth: 1350px;
 
     --white: 255,255,255;
     --blue: 44,71,139;
@@ -11,7 +11,7 @@
     --lightgrey: 230,230,230;
     
     --font-family: 'Montserrat', sans-serif;
-    --font-size: 15px;
+    --font-size: 15rem;
     --font-weight: 400;
 
 }

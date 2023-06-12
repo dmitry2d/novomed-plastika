@@ -7,5 +7,12 @@
 @import 'about-service.css';
 @import 'services.css';
 @import 'request.css';
+@import 'about.css';
+@import 'doctors.css';
+@import 'gallery.css';
+@import 'clients.css';
+@import 'why.css';
+@import 'faq.css';
+@import 'contact.css';
 
 @import 'responsive/index.css';

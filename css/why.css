@@ -1,0 +1,46 @@
+
+
+.why__logo {
+    width: 50%;
+}
+.why__logo img {
+    width: 533rem;
+}
+.why__title {
+    width: 50%;
+    font-size: 48rem;
+    font-weight: 600;
+    padding-left: 20rem;
+    line-height: 1;
+    margin-top: 20rem;
+}
+
+.why__items {
+    display: table;
+    margin: 30rem 0;
+}
+.why__items__row {
+    display: table-row;
+}
+.why__item__cell {
+    display: table-cell;
+}
+.why__item {
+    /* width: 33%; */
+    margin: 10rem 0;
+    padding-right: 20rem;
+}
+.why__item__picture {
+    padding-right: 20rem;
+}
+.why__item__picture img {
+    width: 75rem;   
+}
+.why__item__title {
+    font-size: 24rem;
+    font-weight: 600;
+}
+.why__item__text {
+    font-size: 16rem;
+    font-weight: 400;
+}

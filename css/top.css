@@ -1,7 +1,7 @@
 
 
 .top__wrapper {
-    padding: 12px 0;
+    padding: 12rem 0;
 }
 .top__grid {
     align-items: center;
@@ -10,26 +10,26 @@
     flex-grow: 1;
 }
 .top__menu__items a {
-    font-size: 18px;
+    font-size: 18rem;
     color: inherit;
-    margin-right: 10px;
+    margin-right: 10rem;
 }
 .top__logo {
-    padding-right: 22px;
+    padding-right: 22rem;
 }
 .top__logo img {
-    height: 45px;
+    height: 45rem;
 }
 .top__social__items a {
-    margin-right: 10px;
+    margin-right: 10rem;
 }
 .top__phone {
-    margin-left: 20px;
+    margin-left: 20rem;
 }
 .top__phone a {
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: 600;
-    padding: 10px 15px;
+    padding: 10rem 15rem;
     white-space: nowrap;
-    border-radius: 10px;
+    border-radius: 10rem;
 }

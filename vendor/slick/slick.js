@@ -49,7 +49,7 @@
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
-                centerPadding: '50px',
+                centerPadding: '50rem',
                 cssEase: 'ease',
                 customPaging: function(slider, i) {
                     return $('<button type="button" />').text(i + 1);
@@ -292,11 +292,11 @@
                         now = Math.ceil(now);
                         if (_.options.vertical === false) {
                             animProps[_.animType] = 'translate(' +
-                                now + 'px, 0px)';
+                                now + 'rem, 0rem)';
                             _.$slideTrack.css(animProps);
                         } else {
-                            animProps[_.animType] = 'translate(0px,' +
-                                now + 'px)';
+                            animProps[_.animType] = 'translate(0rem,' +
+                                now + 'rem)';
                             _.$slideTrack.css(animProps);
                         }
                     },
@@ -313,9 +313,9 @@
                 targetLeft = Math.ceil(targetLeft);
 
                 if (_.options.vertical === false) {
-                    animProps[_.animType] = 'translate3d(' + targetLeft + 'px, 0px, 0px)';
+                    animProps[_.animType] = 'translate3d(' + targetLeft + 'rem, 0rem, 0rem)';
                 } else {
-                    animProps[_.animType] = 'translate3d(0px,' + targetLeft + 'px, 0px)';
+                    animProps[_.animType] = 'translate3d(0rem,' + targetLeft + 'rem, 0rem)';
                 }
                 _.$slideTrack.css(animProps);
 
@@ -2004,8 +2004,8 @@
         if (_.options.rtl === true) {
             position = -position;
         }
-        x = _.positionProp == 'left' ? Math.ceil(position) + 'px' : '0px';
-        y = _.positionProp == 'top' ? Math.ceil(position) + 'px' : '0px';
+        x = _.positionProp == 'left' ? Math.ceil(position) + 'rem' : '0rem';
+        y = _.positionProp == 'top' ? Math.ceil(position) + 'rem' : '0rem';
 
         positionProps[_.positionProp] = position;
 
@@ -2017,7 +2017,7 @@
                 positionProps[_.animType] = 'translate(' + x + ', ' + y + ')';
                 _.$slideTrack.css(positionProps);
             } else {
-                positionProps[_.animType] = 'translate3d(' + x + ', ' + y + ', 0px)';
+                positionProps[_.animType] = 'translate3d(' + x + ', ' + y + ', 0rem)';
                 _.$slideTrack.css(positionProps);
             }
         }
@@ -2031,14 +2031,14 @@
         if (_.options.vertical === false) {
             if (_.options.centerMode === true) {
                 _.$list.css({
-                    padding: ('0px ' + _.options.centerPadding)
+                    padding: ('0rem ' + _.options.centerPadding)
                 });
             }
         } else {
             _.$list.height(_.$slides.first().outerHeight(true) * _.options.slidesToShow);
             if (_.options.centerMode === true) {
                 _.$list.css({
-                    padding: (_.options.centerPadding + ' 0px')
+                    padding: (_.options.centerPadding + ' 0rem')
                 });
             }
         }

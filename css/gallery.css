@@ -1,0 +1,41 @@
+
+.gallery__wrapper {
+    position: relative;
+}
+.gallery__items__left {
+    position: absolute;
+    left: 10rem;
+    top: 40%;
+    z-index: 1;
+    padding: 10rem;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+.gallery__items__right {
+    position: absolute;
+    right: 10rem;
+    top: 40%;
+    z-index: 1;
+    padding: 10rem;
+    cursor: pointer;
+}
+.gallery__items {
+    width: 100%;
+}
+.gallery__item {
+    margin: 0 5rem;
+}
+.gallery__item__picture {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+}
+.gallery__item__picture img {
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40rem;
+}
