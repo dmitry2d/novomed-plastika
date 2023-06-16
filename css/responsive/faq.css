@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 1050px) {
+        
+    .faq__wrapper {
+        position: relative;
+    }
+
+    .faq__picture {
+        display: none;
+    }
+    .faq__items {
+        flex-grow: 1;
+    }
+    .faq__title {
+        text-align: center;
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+    .faq__item {
+        margin: 10rem 0;
+        background-position: center bottom;
+
+    }
+    .faq__item__title {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+        margin: 3vw 0;
+        padding-right: 0;
+        padding-bottom: 4vw;
+        cursor: pointer;
+    }
+    .faq__item__text {
+        font-size: 4vw;
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+        max-height: 0;
+        transition: none;
+    }
+
+    .faq__item__active .faq__item__text {
+        transition: 0.7s;
+        max-height: 500rem;
+    }
+    .faq__item__active {
+        padding-bottom: 6vw;
+    }
+
+}

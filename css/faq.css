@@ -26,13 +26,13 @@
 }
 .faq__item {
     margin: 10rem 0;
+    background: url('../img/arr__down.svg') no-repeat right 5rem;
 }
 .faq__item__title {
     width: fit-content;
     font-size: 24rem;
     font-weight: 600;
     margin: 13rem 0;
-    background: url('../img/arr__down.svg') no-repeat right 5rem;
     padding-right: 40rem;
     cursor: pointer;
 }
@@ -49,6 +49,6 @@
     transition: 0.7s;
     max-height: 500rem;
 }
-.faq__item__active .faq__item__title {
+.faq__item__active {
     background: url('../img/arr__up.svg') no-repeat right 5rem;
 }

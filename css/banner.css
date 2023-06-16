@@ -21,7 +21,7 @@
 }
 .banner__background img {
     position: absolute;
-    right: 0;
+    right: calc(0px - (max((1450px - 100vw), 0px) * 0.5));
     height: 100%;
     object-fit: contain;
     object-position: right top;

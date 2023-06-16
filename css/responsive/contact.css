@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 1050px) {
+
+    .contacts__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__right {
+        margin-top: 6vw;
+        width: 100%;
+    }
+    .contacts__title {
+        font-size: 5vw;
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+
+    .contacts__phone,
+    .contacts__address,
+    .contacts__email {
+        display: block;
+        margin: 2vw 0;
+        text-align: center;
+    }
+
+    .contacts__form {
+        display: none;
+    }   .contacts__logo {
+        order: -1;
+    }
+    .contacts__logo img {
+        width: 100%;
+        margin: 5vw 0;
+    }
+
+    .contacts__social {
+        display: none;
+    }
+
+}

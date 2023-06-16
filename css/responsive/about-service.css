@@ -1,0 +1,48 @@
+@media screen and (max-width: 1050px) {
+
+    .about-service__wrapper {
+        position: relative;
+        margin-top: -6vw;
+    }
+    .about-service__shape1 {
+        left: -1vw;
+        top: 4vw;
+    }
+    .about-service__shape1 img {
+        height: 100vw;
+    }
+    .about-service__shape2 {
+        display: none;
+    }
+    .about-service__logo {
+        display: none;
+    }
+
+    .about-service__items {
+        padding: 0 0 0 32vw;
+    }
+    .about-service__item {
+        font-size: 3.1vw;
+        height: 11.5vw;
+    }
+    .about-service__item:first-child {
+        height: 13vw;
+    }
+    .about-service__item:nth-child(6) {
+        padding-top: 13vw;
+    }
+    .about-service__item:before {
+        left: -25vw;
+        width: 25vw;
+        top: 1.3vw;
+        border-top: 2px dotted rgb(var(--red));
+    }
+    .about-service__description {
+        margin: 4.0vw -5.0vw 5.0vw 26.0vw;
+        border: 3px dotted rgb(var(--red)); 
+        border-radius: 3.0vw 0 0 3.0vw;
+        padding: 5.0vw;
+        font-size: 3.4vw;
+    }
+
+}

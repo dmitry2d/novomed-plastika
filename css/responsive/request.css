@@ -1,0 +1,61 @@
+@media screen and (max-width: 1050px) {
+    
+    .request__grid {
+        flex-direction: column;
+    }
+    .request__form {
+        width: 100%;
+    }
+    .request__questions {
+        width: 100%;
+        padding-left: 4vw;
+    }
+    .request__form__title {
+        text-align: center;
+        font-size: 3vw;
+        font-weight: 500;
+
+    }
+    .request__form form {
+        width: 100%;
+        border-radius: 3vw;
+        padding: 2vw;
+        flex-direction: column;
+        margin: 2vw 0;
+    }
+    .request__form form input {
+        border-radius: 2vw;
+        font-size: 4vw;
+        padding:3vw;
+        flex-grow: 1;
+        margin: 1vw;
+    }
+    .request__form form input::placeholder {
+        font-weight: 400;
+        opacity: 0.5;
+    }
+    .request__form form input[type="submit"] {
+        cursor: pointer;
+    }
+
+    .request__form__description {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .request__questions__title {
+        text-align: center;
+        margin: 4vw;
+        font-size: 5vw;
+    }
+    .request__questions__items {
+        justify-content: center;
+    }
+    .request__questions__item {
+        margin: 2vw 6vw;
+    }
+    .request__questions__item a img {
+        width: 12vw;
+    }
+
+}

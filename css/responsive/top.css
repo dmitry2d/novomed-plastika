@@ -1,8 +1,8 @@
-/* 
 
-@media screen and (max-width: 1050rem) {
+
+@media screen and (max-width: 1050px) {
     .top__wrapper {
-        padding: 70rem 0 30rem;
+        padding: 7vw 0 3vw;
     }
     .top__grid {
         flex-wrap: wrap;
@@ -10,40 +10,72 @@
         align-items: center;
     }
     .top__logo {
-        margin: 0 0 25rem 0;
+        margin: 0 0 6vw 0;
     }
     .top__logo img {
-        width: 300rem;
+        width: 60vw;
         height: auto;
     }
     .top__hamburger {
-        margin: 0 0 10rem 0;
+        margin: 0 0 1vw 0;
     }
     .top__hamburger img {
-        width: 44rem;
+        width: 10vw;
         cursor: pointer;
     }
     .top__phone {
         margin: 0;
     }
     .top__phone a {
-        padding: 10rem 30rem;
-        font-size: 27rem;
+        padding: 1.5vw 3.0vw;
+        font-size: 6vw;
+        border-radius: 2.0vw;
     }
     .top__social {
         order: 10;
     }
     .top__social a {
-        margin: 0 0 0 10rem;
+        margin: 0 0 0 2vw;
     }
     .top__social img {
-        width: 40rem;
+        width: 7vw;
     }
+
+    .top__menu__items {
+        display: flex;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: white;
+        z-index: 1000;
+        flex-direction: column;
+        padding: 10vw 5vw;
+        transition: left 0.3s;
+    }
+    .top__menu__items.open {
+        left: 0;
+    }
+    .top__menu a {
+        font-size: 6vw;
+        margin: 3vw;
+        color: rgb(var(--blue));
+        font-weight: 600;
+    }
+
+    .top__hamburger__close {
+        position: fixed;
+        top: 10vw;
+        right: 6vw;
+        z-index: 1100;
+    }
+    .top__hamburger__close img {
+        width: 6vw;
+    }
+
+
 }
 
 
-@media screen and (min-width: 600rem) {
-    .mobile {
-        display: none;
-    }
-} */
+

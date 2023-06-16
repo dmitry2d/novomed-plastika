@@ -16,4 +16,7 @@
     .desktop {
         display: none;
     }
+    .container {
+        padding: 4vw;
+    }
 }

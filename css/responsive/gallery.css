@@ -1,0 +1,14 @@
+@media screen and (max-width: 1050px) {
+
+    .gallery__wrapper {
+        position: relative;
+    }
+    .gallery__items__left {
+        left: 5vw;
+    }
+    .gallery__items__right {
+        right: 5vw;
+    }
+
+
+}
