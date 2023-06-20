@@ -71,30 +71,88 @@
 <!-- Banner -->
 <div class="banner">
     <div class="banner__wrapper bg-grey">
-        <div class="banner__background">
-            <img src="./img/banner__bg__01.jpg" alt="">
-        </div>
-        <div class="container">
-            <div class="banner__title col-white">
-                Центр<br>
-                пластической хирургии
+        <!-- <div class="banner__arrows container"> -->
+            <div class="banner__left"><img src="./img/arrow_thin.svg"></div>
+            <div class="banner__right"><img src="./img/arrow_thin.svg"></div>
+        <!-- </div> -->
+        <div class="banner__items">
+            <div class="banner__item">
+                <div class="banner__background">
+                    <img src="./img/banner__bg__01.jpg" alt="">
+                </div>
+                <div class="container">
+                    <div class="banner__title col-white">
+                        Центр<br>
+                        пластической хирургии
+                    </div>
+        
+                    <!-- Banner Form -->
+                    <div class="banner__form">
+                        <div class="banner__form__title col-white">Запишитесь на тут какой то офер и получите</div>
+                        <form action="">
+                            <input type="text" placeholder="Телефон*">
+                            <input type="submit" class="col-white bg-grey" value="Отправить">
+                        </form>
+                        <div class="banner__form__warning col-white">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+                    </div>
+                    <!-- / Banner Form -->
+        
+                    <div class="banner__description col-white">блефаропластика . ринопластика . маммопластика . липосакция . абдономипластика . отопластика</div>
+                </div>
             </div>
-
-            <!-- Banner Form -->
-            <div class="banner__form">
-                <div class="banner__form__title col-white">Запишитесь на тут какой то офер и получите</div>
-                <form action="">
-                    <input type="text" placeholder="Телефон*">
-                    <input type="submit" class="col-white bg-grey" value="Отправить">
-                </form>
-                <div class="banner__form__warning col-white">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+            <div class="banner__item">
+                <div class="banner__background">
+                    <img src="./img/banner__bg__01.jpg" alt="">
+                </div>
+                <div class="container">
+                    <div class="banner__title col-white">
+                        Центр<br>
+                        пластической хирургии
+                    </div>
+        
+                    <!-- Banner Form -->
+                    <div class="banner__form">
+                        <div class="banner__form__title col-white">Запишитесь на тут какой то офер и получите</div>
+                        <form action="">
+                            <input type="text" placeholder="Телефон*">
+                            <input type="submit" class="col-white bg-grey" value="Отправить">
+                        </form>
+                        <div class="banner__form__warning col-white">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+                    </div>
+                    <!-- / Banner Form -->
+        
+                    <div class="banner__description col-white">блефаропластика . ринопластика . маммопластика . липосакция . абдономипластика . отопластика</div>
+                </div>
             </div>
-            <!-- / Banner Form -->
-
-            <div class="banner__description col-white">блефаропластика . ринопластика . маммопластика . липосакция . абдономипластика . отопластика</div>
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(){
+      $('.banner__items').slick({
+        dots: false,
+        // autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: $('.banner__left'),
+        nextArrow: $('.banner__right'),
+        // responsive: [
+        //     {
+        //         breakpoint: 1050,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1,
+        //             autoplay: false,
+        //             variableWidth: false
+        //         }
+        //     }
+        // ]
+      });
+    });
+  </script>
 <!-- / Banner -->
 
 <!-- About Service -->
