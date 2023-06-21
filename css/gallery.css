@@ -21,9 +21,15 @@
 }
 .gallery__items {
     width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
 }
 .gallery__item {
     margin: 0 5rem;
+    padding: 20rem;
+    border-radius: 60rem;
+    background: white;
 }
 .gallery__item__picture {
     position: relative;
@@ -38,4 +44,19 @@
     height: 100%;
     object-fit: cover;
     border-radius: 40rem;
+}
+.gallery__item__text {
+    padding: 30rem;
+    font-size: 16rem;
+    font-weight: 600;
+}
+
+.gallery .slick-track
+{
+    display: flex !important;
+}
+
+.gallery .slick-slide
+{
+    height: inherit !important;
 }

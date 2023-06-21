@@ -9,6 +9,17 @@
     .gallery__items__right {
         right: 5vw;
     }
+    .gallery__item {
+        margin: 0 5rem;
+        padding: 6vw;
+        border-radius: 12vw;
+        background: white;
+    }
+    .gallery__item__text {
+        padding: 6vw 2vw 5vw;
+        font-size: 4vw;
+        text-align: center;
+    }
 
 
 }
