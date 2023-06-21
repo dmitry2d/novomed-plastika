@@ -28,13 +28,14 @@
 </head>
 <body>
 
-<!-- Top Blue Line -->
+<!-- Top Blue -->
 <div class="top">
     <div class="top__wrapper bg-blue">
         <div class="container">
             <div class="top__grid flex">
-                <div class="top__logo">
+                <div class="top__logo bg-blue">
                     <a href=""><img src="./img/logo__inverse.svg" alt=""></a>
+                    <div class="top__hamburger pad"><img src="./img/icn__hamb.svg" alt=""></div>
                 </div>
                 <div class="top__menu">
                     <div class="top__menu__items flex col-white desktop">
@@ -42,15 +43,9 @@
                         <a href="">Врачи</a>
                         <a href="">Отзывы</a>
                         <a href="">Контакты</a>
+                        <div class="top__hamburger__close pad"><img src="./img/icn__hamb_close.svg" alt=""></div>
                     </div>
                 </div>
-                <div class="top__hamburger pad"><img src="./img/icn__hamb.svg" alt=""></div>
-                <div class="top__hamburger__close pad"><img src="./img/icn__hamb_close.svg" alt=""></div>
-                <script>
-                    $('.top__hamburger').on('click', ()=>{$('.top__menu__items').addClass('open')});
-                    $('.top__hamburger__close').on('click', ()=>{$('.top__menu__items').removeClass('open')});
-                </script>
-
                 <div class="top__social">
                     <div class="top__social__items flex">
                         <a href=""><img src="./img/social__wa.svg" alt=""></a>
@@ -65,16 +60,24 @@
         </div>
     </div>
 </div>
-<!-- / Top Blue Line -->
+
+<script>
+    $('.top__hamburger').on('click', ()=>{
+        $('.top').addClass('open__menu')
+    });
+    $('.top__hamburger__close').on('click', ()=>{
+        $('.top').removeClass('open__menu')});
+</script>
+<!-- / Top -->
 
     
 <!-- Banner -->
 <div class="banner">
     <div class="banner__wrapper bg-grey">
-        <!-- <div class="banner__arrows container"> -->
+        <div class="banner__arrows container">
             <div class="banner__left"><img src="./img/arrow_thin.svg"></div>
             <div class="banner__right"><img src="./img/arrow_thin.svg"></div>
-        <!-- </div> -->
+        </div>
         <div class="banner__items">
             <div class="banner__item">
                 <div class="banner__background">
@@ -189,11 +192,11 @@
                 <div class="services__items__left"><img src="./img/arrow_thin.svg" alt=""></div>
                 <div class="services__items__right"><img src="./img/arrow_thin.svg" alt=""></div>
                 <div class="services__items">
-                    <div class="services__item">
+                    <div class="services__item" tag="1">
                         <div class="services__item__picture">
                             <img src="./img/photo1.png" alt="">
                         </div>
-                        <div class="services__item__title">Лицо</div>
+                        <div class="services__item__title">Услуга лица</div>
                         <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
@@ -201,11 +204,11 @@
                             <a href="" class="services__item__details col-blue">Подробнее</a>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item" tag="1">
                         <div class="services__item__picture">
                             <img src="./img/photo1.png" alt="">
                         </div>
-                        <div class="services__item__title">Грудь</div>
+                        <div class="services__item__title">Услуга лица 2</div>
                         <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
@@ -213,11 +216,23 @@
                             <a href="" class="services__item__details col-blue">Подробнее</a>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item" tag="1">
                         <div class="services__item__picture">
                             <img src="./img/photo1.png" alt="">
                         </div>
-                        <div class="services__item__title">Живот</div>
+                        <div class="services__item__title">Услуга лица 3</div>
+                        <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
+                        <div class="services__item__price">от 44000 рублей</div>
+                        <div class="services__item__buttons flex">
+                            <a href="" class="services__item__appoint bg-blue col-white">Записаться</a>
+                            <a href="" class="services__item__details col-blue">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="services__item" tag="2">
+                        <div class="services__item__picture">
+                            <img src="./img/photo1.png" alt="">
+                        </div>
+                        <div class="services__item__title">Услуга Груди</div>
                         <div class="services__item__text col-grey">Операция по изменению формы век, разреза глаз. Операция предполагает иссечение избытков кожного покрова и жировых образований.Показаниями к проведению блефаропластики являются: нависание кожи верхних и нижних век, «жировые мешки» век, опущение нижних уголков глаз, разрез и форма глаз.</div>
                         <div class="services__item__price">от 44000 рублей</div>
                         <div class="services__item__buttons flex">
@@ -232,12 +247,12 @@
                     <img src="./img/woman__shape__01.png" alt="">
                 </div>
                 <div class="services__tags__items">
-                    <div class="services__tags__item n1"><a href="" class="bg-blue col-white">Лицо</a></div>
-                    <div class="services__tags__item n2"><a href="" class="bg-blue col-white">Грудь</a></div>
-                    <div class="services__tags__item n3"><a href="" class="bg-blue col-white">Живот</a></div>
-                    <div class="services__tags__item n4"><a href="" class="bg-blue col-white">Интимная пластика</a></div>
-                    <div class="services__tags__item n5"><a href="" class="bg-blue col-white">Бедра</a></div>
-                    <div class="services__tags__item n6"><a href="" class="bg-blue col-white">Пластика после онкологии</a></div>
+                    <div class="services__tags__item n1" tag="1"><a href="" class="bg-blue col-white">Лицо</a></div>
+                    <div class="services__tags__item n2" tag="2"><a href="" class="bg-blue col-white">Грудь</a></div>
+                    <div class="services__tags__item n3" tag="3"><a href="" class="bg-blue col-white">Живот</a></div>
+                    <div class="services__tags__item n4" tag="4"><a href="" class="bg-blue col-white">Интимная пластика</a></div>
+                    <div class="services__tags__item n5" tag="5"><a href="" class="bg-blue col-white">Бедра</a></div>
+                    <div class="services__tags__item n6" tag="6"><a href="" class="bg-blue col-white">Пластика после онкологии</a></div>
                 </div>
             </div>
         </div>
@@ -268,15 +283,19 @@ $(document).ready(function(){
             }
         ]
     });
-    // Переход на слайд по тегу
-    $('.services__tags__item:first-child').addClass('selected');
+
+    // Фильтрация услуг по тегу
     $('.services__tags__item').on('click', function (e) {
         e.preventDefault();
         e.stopImmediatePropagation();
+        // Фильтрую по тагу
+        let tag = $(this).attr('tag');
+        $('.services__items').slick('slickUnfilter');
+        $('.services__items').slick('slickFilter',`.services__item[tag=${tag}]`);
+        // Выделяю выбраный таг
         let index = $(this).index();
         $('.services__tags__item').removeClass('selected');
         $(this).addClass('selected');
-        $('.services__items').slick('slickGoTo', index);
     })
   });
 </script>

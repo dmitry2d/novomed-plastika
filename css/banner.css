@@ -5,17 +5,14 @@
     overflow: hidden;
     padding: 120rem 0 40rem;
 }
-/* .banner__arrows.container {
+.banner__arrows.container {
     position: absolute;
     inset: 0;
     pointer-events: none;
-} */
+}
 .banner__left,
 .banner__right {
     display: flex;
-    /* background: white; */
-    /* width: 0rem;
-    height: 60rem; */
     border-radius: 100rem;
     justify-content: center;
     align-items: center;
@@ -25,21 +22,21 @@
 }
 .banner__left {
     position: absolute;
-    left: 60rem;
+    left: -50rem;
     transform: rotate(180deg);
     z-index: 1000;
     pointer-events: all;
 }
 .banner__right {
     position: absolute;
-    right: 60rem;
+    right: -50rem;
     z-index: 1000;
     pointer-events: all;
 }
 .banner__right img,
 .banner__left img {
     filter: brightness(10);
-    width: 50rem;
+    width: 40rem;
 }
 
 .banner__wrapper {

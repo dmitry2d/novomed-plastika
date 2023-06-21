@@ -1,8 +1,42 @@
 
 
+@media screen and (max-width: 1450px) {
+    .banner__item {
+        padding: 100rem 0 70rem;
+    }
+    .banner__arrows.container {
+        inset: 0;
+        top: unset;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner__left,
+    .banner__right {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 60rem;
+        padding: 10rem 65rem;
+    }
+    .banner__right img,
+    .banner__left img {
+        filter: brightness(10);
+        width: 30rem;
+    }
+}
+
 @media screen and (max-width: 1050px) {
+    .banner__item {
+        padding: 10vw 0;
+    }
+    .banner__arrows.container {
+        bottom: 39vw;
+    }
     .banner__wrapper {
-        padding-top: 15vw;
+        padding-top: 0;
         background: rgb(var(--lightgrey));
     }
     .banner__title {
@@ -21,7 +55,7 @@
     .banner__form__title {
         max-width: 47%;
         font-size: 3.4vw;
-        margin-bottom: 10vw;
+        margin-bottom: 20vw;
     }
     .banner__form input {
         width: 50%;
@@ -29,7 +63,7 @@
     }
     .banner__background {
         bottom: unset;
-        height: 77vw;
+        height: 83vw;
     }
     .banner__background img {
         right: 0;
