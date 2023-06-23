@@ -18,6 +18,15 @@
     <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- /jQuery -->
+
+
+    <!-- LightBox -->
+    <link rel="stylesheet" type="text/css" href="lightbox/css/lightbox.min.css"/>
+    <script
+    type="text/javascript"
+    src="lightbox/js/lightbox.js">
+    </script>
+
     
     <!-- Слайдер -->
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css"/>
@@ -142,17 +151,6 @@
         slidesToScroll: 1,
         prevArrow: $('.banner__left'),
         nextArrow: $('.banner__right'),
-        // responsive: [
-        //     {
-        //         breakpoint: 1050,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1,
-        //             autoplay: false,
-        //             variableWidth: false
-        //         }
-        //     }
-        // ]
       });
     });
   </script>
@@ -458,64 +456,79 @@ $(document).ready(function(){
         <div class="gallery__items__left"><img src="./img/arrow.svg" alt=""></div>
         <div class="gallery__items__right"><img src="./img/arrow.svg" alt=""></div>
         <div class="gallery__items">
-            <div class="gallery__item">
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
-            <div class="gallery__item">
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
-            <div class="gallery__item">
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
-            <div class="gallery__item">
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
-            <div class="gallery__item">
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
-            <div class="gallery__item">
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
                 <div class="gallery__item__picture">
                     <img src="./img/photo1.png" alt="">
                 </div>
                 <div class="gallery__item__text">
                     Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
                 </div>
-            </div>
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+                <div class="gallery__item__text">
+                    Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
+                </div>
+            </a>
+            <a href="./img/photo1.png" class="gallery__item" data-lightbox="project-photo">
+                <div class="gallery__item__picture">
+                    <img src="./img/photo1.png" alt="">
+                </div>
+                <div class="gallery__item__text">
+                    Врач Абрамов И.В. Верхняя блефаропластика, месяц после операции.
+                </div>
+            </a>
         </div>
     </div>
 </div>
 
 <script>
     $(document).ready(function(){
-      // Слайдер на баннере
       $('.gallery__items').slick({
         dots: false,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
         speed: 500,
         slidesToShow: 4,
@@ -534,6 +547,9 @@ $(document).ready(function(){
             }
         ]
       });
+    });
+    lightbox.option({
+        alwaysShowNavOnTouchDevices: true
     });
   </script>
 <!-- / Gallery -->
