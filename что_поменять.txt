@@ -1,0 +1,20 @@
+
+
+1. Обновить css/index.css
+2. Добавить css/popup.css
+
+3. Добавить в <header>:
+
+    <!-- Form Scripts -->
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/forms.js"></script>
+    <!-- / Form Scripts -->
+
+4. Добавить Попап html/скрипты (из forms.html)
+5. Добавить в формы в инпут с телефоном name="phone" И imask="phone"
+6. Добавить в формы в инпут с именем name="name"
+7. Добавить mail.php
+
+Настройки масок, скрипта почты и надписей в js/forms.js
+
+Настройки адресов почты и прочего для почты в mail.php
