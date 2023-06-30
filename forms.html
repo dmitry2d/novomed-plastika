@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- /Google fonts -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- /CSS -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- /jQuery -->
+
+    <!-- Form Scripts -->
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/forms.js"></script>
+    <!-- / Form Scripts -->
+        
+    <title>Центр пластической хирургии</title>
+</head>
+
+<body>
+
+<!-- 
+
+Нужно:
+
+1. Из этого файла
+- взять html формы в баннере (Banner Form)
+- взять html формы заявки (Request)
+- взять html popup (Popup)
+- взять скрипты для форм (Form Scripts)
+
+2. взять css/popup
+3. взять mail.php
+
+
+ -->
+
+
+<!-- Banner -->
+<div class="banner">
+    <div class="banner__wrapper bg-grey">
+        <div class="banner__items">
+            <div class="banner__item">
+                <div class="container">  
+
+
+
+                    <!-- Banner Form -->
+                    <div class="banner__form">
+                        <div class="banner__form__title col-white">Запишитесь на тут какой то офер и получите</div>
+                        <form action="" id="bannerForm">
+                            <input type="text" name="phone" placeholder="Телефон*" imask="phone">
+                            <input type="submit" class="col-white bg-grey" value="Отправить">
+                        </form>
+                        <div class="banner__form__warning col-white">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+                    </div>
+                    <!-- / Banner Form -->
+        
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Banner -->
+
+<!-- Request -->
+<div class="request bg-lightgrey">
+    <div class="container">
+        <div class="request__grid flex">
+            <div class="request__form">
+                <div class="request__form__title col-grey">Оставьте заявку и мы с вами свяжемся </div>
+                <form action="" class="bg-blue">
+                    <input type="text" name="phone" placeholder="Телефон*" imask="phone">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="submit" class="bg-white col-blue">
+                </form>
+                <div class="request__form__description">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных и условиями договора оферты</div>
+            </div>
+            <div class="request__questions">
+                <div class="request__questions__title">Остались вопросы - напишите нам</div>
+                <div class="request__questions__items flex">
+                    <div class="request__questions__item">
+                        <a href="">
+                            <img src="./img/social__wa__inverse.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="request__questions__item">
+                        <a href="">
+                            <img src="./img/social__vk__inverse.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="request__questions__item">
+                        <a href="">
+                            <img src="./img/social__tg__inverse.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Request -->
+
+
+
+<!-- Popup -->
+<div class="popup">
+    <div class="popup__wrapper">
+        <div class="popup__title col-blue">
+            Это попап окно
+        </div>
+        <div class="popup__text col-grey">
+            Это пустое попап окно
+        </div>
+        <div class="popup__button col-white bg-blue">
+            Закрыть
+        </div>
+    </div>
+</div>
+
+<script>
+    function showPopup(title, text, button) {
+        $('.popup__title').html(title||'Попап');
+        $('.popup__text').html(text||'Текст попапа');
+        $('.popup__button').html(button||'Закрыть');
+        $('.popup').addClass('visible');
+    };
+    $(document).ready (() => {
+        $('.popup__button').on('click', e => {
+            $('.popup').removeClass('visible');
+        });
+    });
+</script>
+
+<!-- / Popup -->
+
+
+
+</body>
+</html>
